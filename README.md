@@ -1,12 +1,12 @@
-# 🚀 Django Blog API + Swagger Tutorial
+# 🚀 Django Blog API
 
-A professional starter project designed to demonstrate REST API development using Django. This tutorial covers the journey from an empty folder to a fully functional API with automated Swagger documentation.
+A professional starter project designed to demonstrate REST API development using Django.
 
 ---
 
-## 🛠 1. Installation & Setup (Terminal)
+## 🛠 1. Installation & Setup
 
-Follow these steps to set up the project locally:
+Follow these steps:
 
 ```bash
 # Clone the repository
