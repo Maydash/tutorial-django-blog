@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Article Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Управление статьями</h1>
+
+        <form id="articleForm">
+            <input type="text" id="title" placeholder="Заголовок" required>
+            <textarea id="content" placeholder="Контент" required></textarea>
+            <button type="submit">Добавить статью</button>
+        </form>
+
+        <hr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Заголовок</th>
+                    <th>Контент</th>
+                    <th>Дата</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody id="articlesTable">
+                </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
